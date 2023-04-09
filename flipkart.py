@@ -5,7 +5,7 @@ import streamlit as st
 
 
 
-df = pd.read_csv("Project_6\laptop_details.csv")
+df = pd.read_csv("laptop_details.csv")
 
 df['MRP'] = df['MRP'].str.replace('₹', '')
 
